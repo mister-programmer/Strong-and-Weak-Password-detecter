@@ -1,4 +1,4 @@
-s = open(Passlist.txt")
+s = open(passlist.txt")
 password = input("Enter the password : ")
 if password in s:
 	print("Weak password")
